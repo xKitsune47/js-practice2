@@ -1,0 +1,94 @@
+html {
+    min-height: 100vh;
+}
+
+body {
+    font-family: 'Josefin Sans';
+    background-color: gray;
+    margin: 0;
+    height: 100vh;
+}
+
+#header {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #003844;
+    padding: 0.5rem;
+    height: 13vh;
+    box-shadow: 5px 10px;
+}
+
+#header h1 {
+    color: #ffebc6;
+}
+
+#main {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    min-height: 75vh;
+    height: fit-content;
+    background-color: #ffebc6;
+}
+
+.navbar {
+    color: #ffebc6;
+    min-height: 75vh;
+    background-color: #003844;
+    text-align: center;
+    width: 15%;
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar label {
+    padding: 2rem;
+}
+
+.navbar input {
+    margin: 1rem auto 1rem auto;
+    width: 50%;
+}
+
+.navbar span {
+    font-size: 3rem;
+}
+
+.mainContent {
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.contentBlock {
+    margin: 2rem auto 2rem auto;
+    text-align: center;
+    height: fit-content;
+    width: 55%;
+    padding: 2rem;
+    border: #003844 1px solid;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+
+#footer {
+    height: 12vh;
+    background-color: #003844;
+}
+
+.footerContent {
+    text-align: center;
+}
+
+.footerContent img {
+    height: 4rem;
+    padding: 1rem;
+    transition: all 0.3s;
+}
+
+.footerContent img:hover {
+    transform: scale(1.09);
+}
+
+/* #006C67 */

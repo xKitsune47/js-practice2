@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+            rel="stylesheet"
+        />
+        <title>Autocompletion excercise JS</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <section id="header">
+            <h1>Autocompletion excercise JS</h1>
+        </section>
+        <section id="main">
+            <div class="navbar">
+                <label for="howManyShow"
+                    >Choose how many blocks you want to show on screen</label
+                >
+                <input
+                    type="range"
+                    id="howManyShow"
+                    min="0"
+                    max="10"
+                    value="0"
+                    oninput="readValue(this.value);"
+                    onclick="readValue(this.value);"
+                />
+                <br /><span id="wynik">0</span>
+            </div>
+            <div class="mainContent"></div>
+        </section>
+        <section id="footer">
+            <div class="footerContent">
+                <a href="https://github.com/xkitsune47" target="_blank"
+                    ><img src="github-logo.png"
+                /></a>
+            </div>
+        </section>
+    </body>
+</html>
